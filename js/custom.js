@@ -1,11 +1,5 @@
 // Custom Script
-// Developed by: Samson.Onna
-// CopyRights : http://webthemez.com
-
-/*
-Theme by: WebThemez.com
-Note: Please use our back link in your site
-*/
+// Developed by: mateus 
 $( function() {
         var endDate = "october   8, 2024 5:03:25";
 
