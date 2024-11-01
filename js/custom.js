@@ -1,7 +1,7 @@
 // Custom Script
 // Developed by: mateus 
 $( function() {
-        var endDate = "october   28, 2024 5:03:25";
+        var endDate = "November   11, 2024 5:03:25";
 
         $('.countdown.simple').countdown({ date: endDate });
 
