@@ -1046,3 +1046,19 @@ nav#filter li {
 #clients .heading {
 	margin: 0px;
 }
+.heading {
+    width: 100%;             /* Garante que o contêiner ocupe toda a largura */
+    text-align: center;      /* Centraliza o conteúdo dentro do contêiner */
+    display: flex;           /* Usa flexbox para controle preciso do alinhamento */
+    flex-direction: column;  /* Alinha os itens verticalmente */
+    align-items: center;     /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+}
+
+.no-wrap {
+    white-space: nowrap;     /* Garante que o texto fique em uma linha */
+    color: white;            /* Define a cor do texto como branco */
+    font-weight: bold;       /* Deixa o texto em negrito */
+    margin: 0;               /* Remove qualquer margem extra */
+    display: inline;         /* Remove qualquer efeito de bloco que possa causar deslocamento */
+}
