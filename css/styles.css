@@ -1063,3 +1063,134 @@ nav#filter li {
     margin: 0;               /* Remove qualquer margem extra */
     display: inline;         /* Remove qualquer efeito de bloco que possa causar deslocamento */
 }
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menuLinks {
+    list-style: none;
+    padding: 0;
+}
+
+.menuLinks li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menuLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-text {
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.form-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.form-group {
+    display: inline-block;
+    width: 50%;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#socialIcons {
+    text-align: center;
+}
+
+#socialIcons ul {
+    list-style: none;
+    padding: 0;
+}
+
+#socialIcons ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #Header {
+        padding-top: 20px;
+    }
+    .form-group {
+        width: 90%;
+    }
+    .hero-text h2 {
+        font-size: 28px;
+    }
+    .hero-text p {
+        font-size: 16px;
+    }
+    #navigation {
+        flex-direction: column;
+    }
+    .menuLinks li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+    .hero-text {
+        width: 90%;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .form-group input {
+        width: 80%;
+    }
+    #socialIcons ul li {
+        height: 30px;
+        line-height: 30px;
+    }
+}
