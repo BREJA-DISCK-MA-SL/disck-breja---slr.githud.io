@@ -1194,3 +1194,32 @@ body {
         line-height: 30px;
     }
 }
+/* Estilos padrão (para telas maiores, como desktop) */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Media Query para tablets (largura máxima de 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Media Query para celulares (largura máxima de 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        padding: 5px;
+        flex-direction: column; /* Exemplo de ajuste em flexbox */
+    }
+}
+
