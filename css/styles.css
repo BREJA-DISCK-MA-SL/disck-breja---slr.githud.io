@@ -1053,6 +1053,7 @@ nav#filter li {
     flex-direction: column;  /* Alinha os itens verticalmente */
     align-items: center;     /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
+	FONT color: FFF;
 }
 
 .no-wrap {
