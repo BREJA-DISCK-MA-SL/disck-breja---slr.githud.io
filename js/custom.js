@@ -3,7 +3,7 @@
 $(function() {
     // Configura a data de término (25 de novembro de 2024 às 08:30)
     const agora = new Date();
-    const dataFinal = new Date(2024, 10, 8, 22, 5, 0, 0).getTime();
+    const dataFinal = new Date(2024, 10, 8, 20, 24, 0, 0).getTime();
   
     // Verifica a contagem regressiva
     $('.countdown.simple').countdown({ date: dataFinal });
