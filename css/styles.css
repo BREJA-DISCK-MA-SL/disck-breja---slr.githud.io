@@ -1,6 +1,6 @@
-/*
-Theme Name: alive-Responsive-Coming-Soon-Template
+/* 
 Author URI: http://webthemez.com/ 
+Donate to remove backlink form the template.
 */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
@@ -14,7 +14,6 @@ body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	line-height: 1.7;
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -26,12 +25,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #FF5200;
+	background: #FFD500;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #FF5200;
+ background: #FFD500;
 }
 p {
 	color: #858585;
@@ -64,7 +63,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	color: #BEBEBE;
 }
 .btn {
-	background: #FF5200;
+	background: #FFD500;
 }
 .btn:hover {
 	background: #145AC4;
@@ -81,7 +80,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	border: none;
 	padding: 22px 4px;
 	outline: none;
-	color: #fff;
+	color: #D9D9D9;
 	margin: 0;
 	width: 210px;
 	max-width: 100%;
@@ -110,7 +109,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #FF5200;
+	color: #FFD500;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -166,7 +165,7 @@ a:hover {
 }
 .copyright {
 	color: #6D6D6D;
-	background: #161616;
+	background: #0F0F0F;
 	padding: 20px 0;
 }
 #top {
@@ -315,7 +314,7 @@ h2, .h2 {
 }
 .countdown {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 80px;
 }
 .styled {
 	margin-bottom: 60px;
@@ -326,11 +325,17 @@ h2, .h2 {
 	font-size: 70px;
 	font-weight: normal;
 	text-align: center;
-	margin: 0 25px;
+	/* margin: 0 25px; */
 	height: 100px;
 	text-shadow: none;
 	vertical-align: middle;
-	color: #fff;
+	color: #FFFFFF;
+	padding: 20px 30px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 20% 10%;
+	border-style: double;
+	border-color: rgba(255, 255, 255, 0.45);
 }
 #overlay {
 	background: rgba(0, 0, 0, 0.56) url(../images/overlays/01.png) top left repeat;
@@ -354,10 +359,11 @@ h2, .h2 {
 	margin-top: -10px;
 	font-weight: normal;
 	text-align: center;
+	border-radius: 5px;
+	color: #fff;
 }
 .banner-container {
 	background: rgba(0, 0, 0, 0.05);
-	background-image: url('../images/dots.png');
 	background-repeat: repeat;
 	height: 760px;
 }
@@ -416,8 +422,9 @@ h2, .h2 {
 /*home*/
 
 #home .heading h2 {
-	color: #fff;
+	color: #FFFFFF;
 	font-size: 54px !important;
+	font-weight: bold;
 }
 #home .heading strong {
 	color: #fff;
@@ -469,14 +476,14 @@ h2, .h2 {
 	background: transparent;
 }
 .navbar-inverse .navbar-toggle {
-	background-color: #FF5200;
+	background-color: #FFD500;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #FF5200;*/
+/*background-color: #FFD500;*/
 ;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #FF5200;
+	background: #FFD500;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
@@ -503,18 +510,18 @@ h2, .h2 {
  
 .actionPanel {
 	padding: 25px 0;
-	background: #FF5200;
+	background: #FFD500;
 }
 .actionPanel h3 {
 	margin: 0px;
 }
 .circle {
-	color: #8A8A8A;
+	color: #FFD500;
 	height: 80px;
 	width: 80px;
-	border-radius: 90px;
-	background: #252525;
 	padding: 23px;
+	border: 1px solid #CC9D07;
+	border-radius: 10% 20%;
 }
 #section-strapline {
 	background: #f00bfff;
@@ -529,7 +536,7 @@ h2, .h2 {
 	height: 50px;/*color:#FF5200;*/
 }
 .navbar-brand b {
-	color: #FF5200;
+	color: #FFD500;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
 }
@@ -564,7 +571,7 @@ h2, .h2 {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #fff;
 	background: none;
-	border-bottom: 2px solid #FF5200;
+	border-bottom: 2px solid #FFD500;
 	border-radius: 0px;
 }
 .navbar-inverse .navbar-nav > .active {
@@ -592,7 +599,7 @@ h2, .h2 {
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #FF5200;
+	color: #FFD500;
 }
 .page-section p {
 	font-size: 16px;
@@ -602,7 +609,7 @@ h2, .h2 {
 	background: #000;
 }
 .darkBg .fa {
-	color: #FF5200;
+	color: #FFD500;
 }
 #logo {
 	margin-top: 6.875rem;
@@ -618,7 +625,7 @@ h2, .h2 {
 	display: inline-block;
 	font-size: 32px;
 	margin-top: 20px;
-	height: 60px;
+	height: 0px;
 	line-height: 60px;
 	overflow: hidden;
 	text-align: center;
@@ -626,19 +633,21 @@ h2, .h2 {
 	width: 60px;
 }
 a.arrow-link {
-	color: #FF5200;
+	color: #FFD500;
 }
 a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #161616;
+	background: rgba(57, 57, 57, 0.54);
 }
 .colord p {
-	color: #797979;
+	color: rgba(255, 255, 255, 0.71);
 }
 .colord h3 {
-	color: #fff;
+	color: #ECCB60;
+	font-weight: 400;
+	padding: 20px 0 8px;
 }
 .hero-button {
 	text-align: center;
@@ -714,10 +723,14 @@ img, video, iframe, embed, object {
 	margin: auto auto 80px;
 }
 #aboutUs {
-	background: #fff;
+	background: #ffffff;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
+	color:#000000;
+}
+#aboutUs p{
+color: #989898;
 }
 #aboutUs .feature {
 	margin-top: 30px;
@@ -778,13 +791,12 @@ img, video, iframe, embed, object {
 	top: 36px;
 }
 #contactUs {
-/*background: #FF5200;*/;
+/*background: #FFD500;*/;
 }
 #contactUs .btn {
 	border-radius: 0px !important;
 	border: 0px !important;
-	background: #FF5200;
-	color: #fff !important;
+	background: #FFD500; 
 }
 nav#filter {
 	margin-bottom: 1.5em;
@@ -796,11 +808,11 @@ nav#filter li {
 nav#filter a {
 	padding: 4px 12px;
 	line-height: 20px;
-	border: 1px solid #FF5200;
+	border: 1px solid #FFD500;
 	text-decoration: none;
 }
 .current {
-	background: #FF5200;
+	background: #FFD500;
 	color: #fff;
 }
 .page-section.intro {
@@ -881,7 +893,7 @@ body {
 footer {
 	border-top: 1px solid #303030;
 	padding: 35px 0 15px;
-	background: #161616;
+	background: #0F0F0F;
 }
 .social a:hover {
 	color: #818181;
@@ -889,7 +901,7 @@ footer {
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #FF5200;
+	color: #FFD500;
 }
 .contact ul li {
 	margin-bottom: 10px;
@@ -1026,7 +1038,7 @@ nav#filter li {
 }
 .contact-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	/* background-image: url('../images/banner-bg.jpg'); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1037,7 +1049,7 @@ nav#filter li {
 	color: #FDFDFD !important;
 }
 .parlex-back .heading p {
-	color: #FDFDFD;
+	color: #C5C5C5;
 	font-weight: normal;
 }
 .customNavigation {
@@ -1046,180 +1058,14 @@ nav#filter li {
 #clients .heading {
 	margin: 0px;
 }
-.heading {
-    width: 100%;             /* Garante que o contêiner ocupe toda a largura */
-    text-align: center;      /* Centraliza o conteúdo dentro do contêiner */
-    display: flex;           /* Usa flexbox para controle preciso do alinhamento */
-    flex-direction: column;  /* Alinha os itens verticalmente */
-    align-items: center;     /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-	FONT color: FFF;
+li.active a {
+color: #FED400;
 }
-
-.no-wrap {
-    white-space: nowrap;     /* Garante que o texto fique em uma linha */
-    color: white;            /* Define a cor do texto como branco */
-    font-weight: bold;       /* Deixa o texto em negrito */
-    margin: 0;               /* Remove qualquer margem extra */
-    display: inline;         /* Remove qualquer efeito de bloco que possa causar deslocamento */
-}
-/* Estilos Globais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-#Header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-#navigation {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.menuLinks {
-    list-style: none;
-    padding: 0;
-}
-
-.menuLinks li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.menuLinks a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero-text {
-    margin-bottom: 20px;
-}
-
-.hero-text h2 {
-    font-size: 36px;
-}
-
-.hero-text p {
-    font-size: 18px;
-}
-
-.btn {
-    background-color: #28a745;
-    color: white;
+#botaoRedirecionar {
+    padding: 50px 20x;
+    background-color: #007bff;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
+    border-radius: 50px;
     cursor: pointer;
-    font-size: 18px;
 }
-
-.btn:hover {
-    background-color: #218838;
-}
-
-.form-section {
-    text-align: center;
-    margin: 40px 0;
-}
-
-.form-group {
-    display: inline-block;
-    width: 50%;
-}
-
-.form-group input {
-    width: 70%;
-    padding: 10px;
-    margin-right: 10px;
-}
-
-#socialIcons {
-    text-align: center;
-}
-
-#socialIcons ul {
-    list-style: none;
-    padding: 0;
-}
-
-#socialIcons ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    #Header {
-        padding-top: 20px;
-    }
-    .form-group {
-        width: 90%;
-    }
-    .hero-text h2 {
-        font-size: 28px;
-    }
-    .hero-text p {
-        font-size: 16px;
-    }
-    #navigation {
-        flex-direction: column;
-    }
-    .menuLinks li {
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 480px) {
-    h2 {
-        font-size: 24px;
-    }
-    .hero-text {
-        width: 90%;
-    }
-    .btn {
-        font-size: 16px;
-        padding: 12px 20px;
-    }
-    .form-group input {
-        width: 80%;
-    }
-    #socialIcons ul li {
-        height: 30px;
-        line-height: 30px;
-    }
-}
-/* Estilos padrão (para telas maiores, como desktop) */
-body {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-/* Media Query para tablets (largura máxima de 768px) */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        padding: 10px;
-    }
-}
-
-/* Media Query para celulares (largura máxima de 480px) */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-    .container {
-        padding: 5px;
-        flex-direction: column; /* Exemplo de ajuste em flexbox */
-    }
-}
-
