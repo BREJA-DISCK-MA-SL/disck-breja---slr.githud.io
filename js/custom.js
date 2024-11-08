@@ -3,7 +3,7 @@
 $(function() {
   // Configura a data de término (hoje às 10:45)
   const agora = new Date();
-  const dataFinal = new Date(2024, 10, 2, 8, 30, 0, 0).getTime();
+  const dataFinal = new Date(2024, 10, 25, 8, 30, 0, 0).getTime();
 
 
   // Verifica a contagem regressiva
